@@ -1,0 +1,16 @@
+{
+	"compilerOptions": {
+		"baseUrl": "src",
+		"lib": ["dom", "dom.iterable", "esnext"],
+		"jsx": "react-jsx",
+		"module": "esnext",
+		"strict": true,
+		"outDir": "./dist/",
+		"noImplicitAny": true,
+		"target": "es5",
+		"allowJs": true,
+		"moduleResolution": "node",
+		"allowSyntheticDefaultImports": true
+	},
+	"include": ["src", "jsconfig.json"]
+}
